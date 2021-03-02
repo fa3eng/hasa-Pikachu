@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>* {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::after,
+        *::before {
+            box-sizing: border-box;
+        }
+
+        /* css reset */
+
+        
+
+        #style {
+            display: none;
+        }
+
+        #main {
+            position: absolute;
+            width: 100%;
+            height: 50vh;
+            bottom: 0;
+            overflow: hidden;
+        }
+
+        #placeholder {
+            position: absolute;
+            width: 100%;
+            height: 50vh;
+            padding-left: 30px;
+            top: 0;
+            overflow: scroll;
+        }
+
+        .buttons {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            right: 10px;
+            top: 10px;
+        }
+
+        .buttons>button{
+            margin-top: 10px;
+        }</style>
+
+</head>
+
+<body>
+
+
+    <!-- 实际效果 -->
+    <style id="style"></style>
+    <!-- 占位,显示css -->
+    <div id="placeholder"></div>
+
+    <!-- 播放设置 -->
+    <div class="buttons">
+        <button id="btnPlay">播放</button>
+        <button id="btnPause">暂停</button>
+        <button id="btnSlow">慢速</button>
+        <button id="btnNormal">正常</button>
+        <button id="btnFast">快速</button>
+    </div>
+
+    <div id="main">
+        <div class="skin">
+            <div class="eye left">
+                <div class="innerEye"></div>
+            </div>
+            <div class="eye right">
+                <div class="innerEye"></div>
+            </div>
+            <div class="nose">
+                <div class="triangle">
+                    <div></div>
+                </div>
+            </div>
+            <div class="face left"></div>
+            <div class="face right"></div>
+
+            <div class="mouth">
+                <div class="up">
+                    <div class="lip_left"></div>
+                    <div class="lip_right"></div>
+                </div>
+                <div class="hidden">
+                    <div class="down"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+<script src="/test.e98b79dd.js"></script>
+
+</html>

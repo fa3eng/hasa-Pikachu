@@ -11,6 +11,10 @@
 
 /* css reset */
 
+body{
+    background-color: rgb(187, 187, 187);
+}
+
 #style {
     display: none;
 }
@@ -25,21 +29,73 @@
 
 #placeholder {
     position: absolute;
-    width: 100%;
-    height: 50vh;
-    padding-left: 30px;
+    width: 45%;
+    height: 45vh;
+    margin-top: 20px;
+    padding: 1em 0 1em 1em ;
+    margin-left: 30px;
     top: 0;
     overflow: scroll;
+
+    border: 2px solid #2e2e2e;
+    background-color: #ffeb3b;
+    color: #2e2e2e;
+    border-radius: 5px;
+}
+
+#aboutMe {
+    margin-top: .5em;
+}
+
+#aboutMe>a {
+    text-decoration: none;
+    margin-right: 2em;
+    color: #fff;
+    font-weight: 700;
+}
+
+#aboutMe>a:hover {
+    color: #eb3223;
 }
 
 .buttons {
     position: absolute;
     display: flex;
     flex-direction: column;
-    right: 10px;
+    right: 48%;
     top: 10px;
 }
 
 .buttons>button{
     margin-top: 10px;
+    background-color: #eb3223;
+    color: cornsilk;
+    width: 70px;
+    height: 30px;
+    border: 2px solid #2e2e2e;
+    border-radius: 4px;
+}
+
+.buttons>button:hover{
+    cursor: pointer;
+    background-color: #eb3423cb;
+}
+
+.showPic {
+    position: absolute;
+    width: 45%;
+    height: 45vh;
+    margin-top: 20px;
+    padding: 0 0 1em 1em ;
+    right: 0;
+    color: #fff;
+    font-weight: 700;
+}
+
+.showPic>img{
+    overflow: hidden;
+    width: 95%;
+    margin-top: 6px;
+    border: 1px solid #2e2e2e;
+    border-radius: 2px;
 }

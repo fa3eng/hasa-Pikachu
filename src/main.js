@@ -195,7 +195,7 @@ const style = document.querySelector('#style');
 const showHtml = document.querySelector('#placeholder');
 
 let stringFormat = '';
-let time = 100;
+let time = 15;
 
 let step = () => {
 
@@ -246,13 +246,13 @@ btnPause.addEventListener('click', ()=> {
 
 btnSlow.addEventListener('click', ()=> {
     playFlag = 1;
-    time = 200;
+    time = 80;
     step();
 })
 
 btnNormal.addEventListener('click', ()=> {
     playFlag = 1;
-    time = 100;
+    time = 15;
     step();
 })
 

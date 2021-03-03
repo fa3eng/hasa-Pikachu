@@ -43,9 +43,6 @@ body{
     border-radius: 5px;
 }
 
-#aboutMe {
-    margin-top: .5em;
-}
 
 #aboutMe>a {
     text-decoration: none;

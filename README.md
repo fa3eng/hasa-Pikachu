@@ -4,4 +4,4 @@
 
 实现的大概思路：将样式代码打印到页面中（利用Js往样式代码的标签中添加代码），用以达成一边生成样式代码，一边用样式代码生成皮卡丘的效果。
 
-预览链接：[点这里](https://meakle.com/hasa-Pikachu/src/)
+预览链接：[点这里](https://meakle.github.io/hasa-Pikachu/src/)
